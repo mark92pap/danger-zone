@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
+import Trip from '../models/trip.model';
 
 @Component({
   selector: 'trip-list-item',
@@ -7,6 +9,14 @@ import { Component, Input } from '@angular/core';
 })
 export class TripListItemComponent {
 
-  @Input() trip: any;
+  @Input() trip?: Trip;
+
+  constructor(private _router: Router) {
+
+  }
+
+  tripSelected(): void {
+    this._router.navigate([`trip/${this.trip?.id}`])
+  }
 
 }

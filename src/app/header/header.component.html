@@ -1,9 +1,25 @@
-<p-card class="grid gap-2">
-  <div class="flex justify-content-center gap-2" style="background-color: red; padding: 5px">
+<div class="header-container">
+
+  <div class="logo-container" style="padding: 5px">
     <img
       src="assets/images/logo.png"
       style="height: 150px;" />
     <h1 style="display: inline;">Danger Zone</h1>
   </div>
 
-</p-card>
+  <div class="button-container">
+    <button
+      pButton
+      [outlined]="true"
+      severity="danger"
+      label="Home"
+      (click)="navigateHome()"></button>
+      <button
+        pButton
+        [outlined]="true"
+        severity="danger"
+        label="Contact Us"
+        (click)="navigateContact()"></button>
+  </div>
+
+</div>
