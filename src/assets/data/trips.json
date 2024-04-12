@@ -38,6 +38,65 @@
     "categories": [
       "group"
     ]
+  },
+  {
+    "id": 5,
+    "title": "Climbing a Sheer Ice Wall",
+    "description": "A climber ascends a perilous vertical ice wall, using only ice axes and crampons against a stark winter backdrop.",
+    "imgUrl": "assets/images/wall.webp",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Kayaking Over a Waterfall",
+    "description": "An adventurer in a kayak plunges down a massive waterfall, surrounded by mist and roaring water.",
+    "imgUrl": "assets/images/kay.webp",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Motorcycle Jump Over a Canyon",
+    "description": "A motorcyclist performs a daring jump over a wide canyon, with a breathtaking sunset in the background.",
+    "imgUrl": "assets/images/motor.webp",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Tightrope Walking between Skyscrapers",
+    "description": "A tightrope walker balances precariously between two skyscrapers, high above a bustling cityscape.",
+    "imgUrl": "assets/images/sky.webp",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Volcano Boarding Down an Erupting Volcano",
+    "description": "An adventurer rides a heat-resistant board down the steep, ash-covered slopes of an actively erupting volcano. Lava spurts and ash clouds billow around them, adding a dramatic and perilous element to the descent.",
+    "imgUrl": "assets/images/board.webp",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Hang Gliding Over a Raging Forest Fire",
+    "description": "A hang glider soars directly over a massive forest fire. Below, flames and smoke create a daunting landscape, while the glider navigates the turbulent hot air and embers swirling up from the inferno.",
+    "imgUrl": "assets/images/glide.webp",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
   }
-
 ]
