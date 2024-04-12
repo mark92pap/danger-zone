@@ -1,9 +1,9 @@
-<div class="grid" style="height: 200px;">
-  <div class="col-4">
-    <img src="https://i.ibb.co/hdCXvhx/image.png" style="height: 100%;" />
-  </div>
-  <div class="col-8 grid">
-    <h3>{{trip.title}}</h3>
-    <p>{{trip.description}}</p>
+<div class="trip-container">
+  <img [src]="trip?.imgUrl" style="height: 100%;" />
+  <div>
+    <h3>{{trip?.title}}</h3>
+    <p>{{trip?.description}}</p>
+    <button pButton label="See more" class="p-button-info" (click)="tripSelected()"></button>
+    <small style="margin-left: 10px;">{{trip?.categories?.join(', ')}}</small>
   </div>
 </div>
