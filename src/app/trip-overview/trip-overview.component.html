@@ -1,1 +1,10 @@
-<p>trip-overview works!</p>
+<div class="grid" style="height: 80%;" *ngIf="trip != undefined">
+    <div class="col-4">
+      <img src={{trip.imgUrl}} style="height: 100%;" />
+    </div>
+    <div class="col-8 grid">
+      <h3>{{trip.title}}</h3>
+      <p>{{trip.description}}</p>
+    </div>
+  </div>
+  
