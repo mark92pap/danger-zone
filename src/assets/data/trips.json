@@ -1,9 +1,19 @@
 [
   {
     "id": 1,
-    "title": "Test title",
-    "description": "desc",
-    "imgUrl": "",
+    "title": "BMX Descent on Everest",
+    "description": "Navigating the treacherous slopes of Everest on a BMX bike is a test of nerve and skill. The thin air and frigid temperatures add to the peril, as every turn could be met with a deadly drop or hidden crevasse.",
+    "imgUrl": "https://ibb.co/XyKr4zX",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "BMX Descent on Everest",
+    "description": "Scuba Diving in Medieval Armor: Diving among sharks while clad in medieval armor is an anachronistic challenge of buoyancy and bravery. The weight of history is literal, as the diver sinks into the depths, surrounded by predators of the sea.",
+    "imgUrl": "https://ibb.co/gWzTJ8f",
     "level": 5,
     "categories": [
       "group"
