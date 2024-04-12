@@ -10,14 +10,14 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TripOverviewComponent implements OnInit {
   public trip?: Trip
-  public id: number = 0;
+  public id: any;
 
   constructor(
     private _service: TripsService,
     private _route: ActivatedRoute
   ) {
     this._route.params.subscribe(params => {
-      this.id = params['id'] as number;
+      this.id = params['id'];
     });
 
   }
@@ -26,7 +26,7 @@ export class TripOverviewComponent implements OnInit {
   
     this._service.getTrips().subscribe(data => {
       var trips = data as Trip[];
-      this.trip = trips.find(trip => (trip.id === this.id));
+      this.trip = trips.find(trip => (trip.id == this.id));
       console.log(this.trip);
     });
   }
