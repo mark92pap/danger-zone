@@ -19,6 +19,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { TripOverviewComponent } from './trip-overview/trip-overview.component';
 import { TripListItemComponent } from './trip-list-item/trip-list-item.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TripListItemComponent } from './trip-list-item/trip-list-item.component
     HeaderComponent,
     HomeComponent,
     TripOverviewComponent,
-    TripListItemComponent
+    TripListItemComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

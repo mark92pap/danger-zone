@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'header',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+
+  constructor(private _router: Router) {
+
+  }
+
+  navigateHome(): void {
+    this._router.navigate(['/']);
+  }
+
+  navigateContact(): void {
+    this._router.navigate(['/contact']);
+  }
 
 }
