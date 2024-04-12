@@ -3,37 +3,37 @@
     "id": 1,
     "title": "BMX Descent on Everest",
     "description": "Navigating the treacherous slopes of Everest on a BMX bike is a test of nerve and skill. The thin air and frigid temperatures add to the peril, as every turn could be met with a deadly drop or hidden crevasse.",
-    "imgUrl": "assets/images/mtb",
+    "imgUrl": "assets/images/mtb.png",
     "level": 5,
     "categories": [
       "group"
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Scuba Diving in Medieval Armor",
     "description": "Scuba Diving in Medieval Armor: Diving among sharks while clad in medieval armor is an anachronistic challenge of buoyancy and bravery. The weight of history is literal, as the diver sinks into the depths, surrounded by predators of the sea.",
-    "imgUrl": "assets/images/scuba_diving",
+    "imgUrl": "assets/images/scuba.png",
     "level": 5,
     "categories": [
       "group"
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "title": "Desert Walking - Sahara and Antarctica",
     "description": "raversing the Sahara’s endless dunes and Antarctica’s frozen expanse is a dual trial of human endurance. The relentless sun and biting cold are constant companions on this journey across Earth’s most extreme landscapes.",
-    "imgUrl": "assets/images/sahara",
+    "imgUrl": "assets/images/sahara.png",
     "level": 5,
     "categories": [
       "group"
     ]
   },
   {
-    "id": 1,
+    "id": 4,
     "title": "Volcano Bungee Jumping",
     "description": "Leap off a hovering helicopter with only a bungee cord attached, diving towards an active volcano’s molten mouth. It’s a leap of faith where the heat is on!",
-    "imgUrl": "assets/images/vulcan",
+    "imgUrl": "assets/images/vulcan.webp",
     "level": 5,
     "categories": [
       "group"
