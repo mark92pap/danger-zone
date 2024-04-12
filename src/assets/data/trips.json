@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Test title",
+    "description": "desc",
+    "imgUrl": "",
+    "level": 5,
+    "categories": [
+      "group"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<p>Hello</p>
+<p-table [value]="trips">
+  <ng-template pTemplate="body" let-trip>
+    <tr>
+        <trip-list-item [trip]="trip"></trip-list-item>
+    </tr>
+  </ng-template>
+</p-table>

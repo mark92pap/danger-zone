@@ -15,10 +15,18 @@ import { RadioButtonModule } from 'primeng/radiobutton';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CardModule } from 'primeng/card';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { TripOverviewComponent } from './trip-overview/trip-overview.component';
+import { TripListItemComponent } from './trip-list-item/trip-list-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    TripOverviewComponent,
+    TripListItemComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +43,8 @@ import { CardModule } from 'primeng/card';
     RadioButtonModule,
     DropdownModule,
     ButtonModule,
-    CardModule
+    CardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
