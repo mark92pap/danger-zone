@@ -6,7 +6,8 @@
     "imgUrl": "assets/images/mtb.png",
     "level": 5,
     "categories": [
-      "group"
+      "solo",
+      "bicycle"
     ]
   },
   {
@@ -16,7 +17,8 @@
     "imgUrl": "assets/images/scuba.png",
     "level": 5,
     "categories": [
-      "group"
+      "solo",
+      "water"
     ]
   },
   {
@@ -26,7 +28,8 @@
     "imgUrl": "assets/images/sahara.png",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "heat"
     ]
   },
   {
@@ -36,7 +39,8 @@
     "imgUrl": "assets/images/vulcan.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "fire"
     ]
   },
   {
@@ -46,7 +50,9 @@
     "imgUrl": "assets/images/wall.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "mountain",
+      "cold"
     ]
   },
   {
@@ -56,7 +62,8 @@
     "imgUrl": "assets/images/kay.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "water"
     ]
   },
   {
@@ -66,7 +73,8 @@
     "imgUrl": "assets/images/motor.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "bicycle"
     ]
   },
   {
@@ -76,7 +84,8 @@
     "imgUrl": "assets/images/sky.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "height"
     ]
   },
   {
@@ -86,7 +95,8 @@
     "imgUrl": "assets/images/board.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "fire"
     ]
   },
   {
@@ -96,7 +106,8 @@
     "imgUrl": "assets/images/glide.webp",
     "level": 5,
     "categories": [
-      "group"
+      "group",
+      "fire"
     ]
   }
 ]
