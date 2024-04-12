@@ -19,6 +19,8 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.trips = this._service.trips;
+    this._service.getTrips().subscribe(data => {
+      this.trips = data as Trip[]; 
+    });
   }
 }
